@@ -7,5 +7,5 @@ const { name, age } =
     Profession: "Developer"
 };
 
-document.write("<p>" + name + "</p>");
-document.write("<p>" + age + "</p>");
+document.write(`<p>${name}</p>`);
+document.write(`<p>${age}</p>`);
